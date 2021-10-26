@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+      <script defer src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>    
+    <script defer src="/firebase-init.js"></script>
   </head>
   <body>
-    Hello world
-    <script src="script.js"></script>
+    <input type="text" placeholder="type something">
+    <input type="submit" onclick="write(); return false">
   </body>
 </html>
